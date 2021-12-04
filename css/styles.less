@@ -1,0 +1,36 @@
+// подключаем сам бутстрап лес
+@import "less/bootstrap.less";
+
+// Подключаем файл с перемеными
+@import "variables.less";
+
+@font-face {
+    font-family: "eau_sans_bold";
+    src: url("../fonts/eau_sans_bold/eau_sans_bold.ttf");
+    
+
+body {
+    margin: 0;
+    font-family: "eau_sans_book";
+}
+
+
+// Header Block
+header {
+    width: auto;
+    height: 640px;
+    position: relative;
+    background-image: 
+    url(../images/clouds-bg.png),
+    url(../images/back-clouds-bg.png),
+    url(../images/top-colors-bar-bg.png),
+    url(../images/iPhone.png);
+
+    background-position: 
+    top 52px left 90px,
+    center bottom 20px,
+    center top,
+    center top;
+
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat;
+}
